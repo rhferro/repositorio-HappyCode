@@ -1,0 +1,139 @@
+body {
+    font-family: Monaco, monospace;
+    text-align: justify;
+    width: 85%;
+    margin: auto;
+}
+
+div#inicio{
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    border-top-left-radius: 50px ;
+    border-top-right-radius: 50px ;
+}
+
+div#sum {
+    border-bottom-left-radius: 50px ;
+    border-bottom-right-radius: 50px ;
+}
+div#sum, div#inicio{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgba(2, 109, 109, 0.767);
+    color: white;
+    
+    
+    
+}
+
+
+section {
+    /* padding: 64px 256px; */
+    margin-bottom: 4px;
+    margin-top: 8px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    background-color: rgba(4, 167, 167, 0.767);
+    border-radius: 50px;
+}
+
+#fonte {
+    font-size: 1em;
+    text-align: right;
+}
+
+p {
+    text-indent: 70px; /*Identifica esse aspecto apenas na primeira linha*/
+}
+
+a:hover {
+    background-color: rgba(4, 167, 167, 0.767);
+    border-color: rgba(4, 167, 167, 0.767);
+}
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+h1, h3{
+    text-align: center;
+}
+
+
+p, ol>li {
+    font-size: 1.5em;
+}
+
+.botao {
+    font-size: .66em;
+
+    background-color: black;
+    border: solid black 3px;
+    color: rgba(216, 216, 87, 0.967);
+    border-radius: 90%;
+    text-decoration: none;
+    box-shadow: 2px 2px 1px 1px rgb(61, 61, 36);
+}
+.voltar {
+    float: right;
+}
+
+section>h3 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img {
+    
+    display: block;
+    width: 30%;
+    margin: auto;
+    border-radius: 10%;
+    /* height: 25%; */
+}
+
+table {
+    border: solid 2px black;
+    font-size: 1.33em;
+}
+
+td,
+th {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+td {background-color: rgba(107, 238, 238, 0.767)}
+
+th {
+    background-color: rgba(2, 87, 87, 0.767);
+    color: rgb(208, 244, 245)
+}
+
+
+
+
+
+
+.efeito:active {
+        box-shadow: none;
+}
+ 
+footer{
+    margin-bottom: 65px;
+    text-align: right;
+    font: bolder;
+}
